@@ -31,7 +31,7 @@ Además, se programa una **ESP32** para que funcione como *publisher*, enviando 
 
 ---
 
-## Parte 1: Instalación de Mosquitto
+## 1: Instalación de Mosquitto
 
 ### 1.1 Actualizar el sistema
 
@@ -98,7 +98,7 @@ Si todo salió bien, Mosquitto estará escuchando en ese puerto.
 
 ---
 
-## Parte 2: Prueba rápida
+## 2: Prueba rápida
 
 Abre dos terminales.
 
@@ -130,7 +130,7 @@ Si aparece, todo va bien.
 
 ---
 
-## Parte 3: ESP32 como Publisher
+## 3: ESP32 como Publisher
 
 ### 3.1 Configurar Arduino IDE
 
@@ -251,7 +251,7 @@ void loop() {
 
 ---
 
-## Parte 4: Verificación final
+## 4: Verificación final
 
 En la Raspberry:
 
@@ -270,7 +270,7 @@ Si ves eso, ya quedó funcionando todo.
 
 ---
 
-## Parte 5: Evidencia
+## 5: Evidencia
 
 ### Instalación Mosquitto
 <img src="images/instalation.png" width="600"/>
