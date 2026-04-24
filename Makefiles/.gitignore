@@ -4,7 +4,6 @@
 
 # Archivos generados
 *.txt
-*.png
 
 # Temporales
 *.log
