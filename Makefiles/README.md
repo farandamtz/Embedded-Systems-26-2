@@ -566,7 +566,7 @@ Ejecutar el siguiente comando desde la terminal:
 make
 ```
 
-Una vez ejecutado el comando indicado, en la terminal se desplegrá lo siguiente:
+Una vez ejecutado el comando indicado, en la terminal se despliegrá lo siguiente:
 
 <img src="images/ejecucionCollatz.png" width="600"/>
 
