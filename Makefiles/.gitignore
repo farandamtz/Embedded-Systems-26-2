@@ -1,0 +1,13 @@
+# Compilación
+*.o
+*.exe
+
+# Archivos generados
+*.txt
+*.png
+
+# Temporales
+*.log
+
+# Editor
+.vscode/
