@@ -2,16 +2,16 @@
 
 ## Descripción
 
-En el desarrollo de este ejercicio se explica la estructura y el uso de los archivos ```Makefile``` para la estandarización de **procesos de compilación y ejecución**. Así mismo se describe y documenta su ejecución y funcionamiento con dos ejemplos concretos.
+En el desarrollo de este ejercicio se explica la estructura y el uso de los archivos ```Makefile``` para la estandarización de **procesos de compilación y ejecución**. Así mismo se describe y documenta su ejecución y funcionamiento mediante dos ejemplos.
 
 ---
 
 ## Objetivos
 
-- Identificar y comprender la estructura básica de un Makefile y su función en la automatización de proyectos.
-- Explicar cómo un Makefile ayuda a estandarizar procesos de compilación.
-- Crear un Makefile propio, documentarlo y organizarlo en un repositorio personal.
-- Describir el funcionamiento del código del Makefile, reportando resultados de ejecución y explicando cómo se logra la automatización.
+- Identificar y comprender la estructura básica de un ``Makefile`` y su función en la automatización de proyectos.
+- Explicar cómo un ``Makefile`` ayuda a estandarizar procesos de compilación.
+- Crear un ``Makefile`` propio, documentarlo y organizarlo en un repositorio personal.
+- Describir el `funcionamiento` del código del ``Makefile``, reportando resultados de ejecución y explicando cómo se logra la automatización.
 
 ---
 
@@ -19,7 +19,7 @@ En el desarrollo de este ejercicio se explica la estructura y el uso de los arch
 
 Primeramente se realiza la prueba con el archivo Make incluido en la carpeta `jilia` del repositorio proporcionado en las especificaciones de este ejercicio.
 
-El código del archivo `main.c` es el siguiente:
+El código del archivo `main.cpp` es el siguiente:
 
 ```cpp
 #include <cmath>
@@ -270,6 +270,8 @@ Elimina todos los archivos generados:
 
 Esto permite recompilar desde cero.
 
+---
+
 ### Funcionamiento
 
 > **Importante:** se está utilizando la terminal ``MYSYS2 UCRT64`` desde Windows.
@@ -278,9 +280,9 @@ Esto permite recompilar desde cero.
 
 <img src="images/directorioJulia.png" width="600"/>
 
-Dentro de esta carpeta se encuentra el Makefile y el archivo `main.c`, el cual se compilará y ejecutará enseguida.
+Dentro de esta carpeta se encuentra el Makefile y el archivo `main.cpp`, el cual se compilará y ejecutará enseguida.
 
-#### 1.2 Compilación y ejecución del archivo main.c a partir del archivo Makefile
+#### 1.2 Compilación y ejecución del archivo main.cpp a partir del archivo Makefile
 
 Ejecutar el siguiente comando desde la terminal:
 
@@ -292,7 +294,7 @@ Una vez ejecutado el comando indicado, en la terminal se desplegrá el siguiente
 
 <img src="images/ejecucionJulia.png" width="600"/>
 
-Esto indica que el archivo main.c fue compilado y ejecutado exitosamente, habiendo sido creados los archivos `main.o`, `julia.exe`, ``julia_set.txt`` y ``julia_set.png``.
+Esto indica que el archivo ``main.cpp`` fue compilado y ejecutado exitosamente, habiendo sido creados los archivos `main.o`, `julia.exe`, ``julia_set.txt`` y ``julia_set.png``.
 
 #### 1.3 Grafica del conjunto de Julia
 
@@ -302,11 +304,13 @@ La ejecución del programa abre el archivo ``julia_set.png``, que es la gráfica
 
 Y es así como se presenta el funcionamiento de un archivo ``make`` utilizado para compilar y ejecutar un programa en ``c++``.
 
+---
+
 ## 2. Ejemplo propuesto
 
 Una vez descrito y analizado el programa anterior, se procede con la propuesta de otro ejercicio. En este caso se hará uso de un archivo ``make`` para compilar y ejecutar un programa escrito en ``c++`` que realiza el cálculo de la ``conjetura de collatz`` y genera una visualización de forma tipo fractal mediante ``gnuplot``.
 
-El código del programa, main.cpp, es el siguiente:
+El código del programa ``main.cpp`` es el siguiente:
 
 ```cpp
 #include <complex>
@@ -544,15 +548,17 @@ clean:
 
 Elimina todos los archivos generados y permite recompilar desde cero.
 
+---
+
 ### Funcionamiento
 
 #### 2.1 Acceder desde la terminal al directorio en el que se encuentra el archivo ``make``.
 
 <img src="images/directorioCollatz.png" width="600"/>
 
-Dentro de esta carpeta se encuentra el Makefile y el archivo `main.c`.
+Dentro de esta carpeta se encuentra el Makefile y el archivo `main.cpp`.
 
-#### 2.2 Compilación y ejecución del archivo main.c a partir del archivo Makefile
+#### 2.2 Compilación y ejecución del archivo main.cpp a partir del archivo Makefile
 
 Ejecutar el siguiente comando desde la terminal:
 
@@ -564,9 +570,9 @@ Una vez ejecutado el comando indicado, en la terminal se desplegrá lo siguiente
 
 <img src="images/ejecucionCollatz.png" width="600"/>
 
-Esto indica que la compilación y ejecución de ``main.c`` fue exitosa, creándose así los archivos `main.o`, `collatz.exe`, ``collatz.txt`` y ``collatz.png``.
+Esto indica que la compilación y ejecución de ``main.cpp`` fue exitosa, creándose así los archivos `main.o`, `collatz.exe`, ``collatz.txt`` y ``collatz.png``.
 
-#### 2.3 Grafica de la conjetura de Collatz
+#### 2.3 Gráfica de la conjetura de Collatz
 
 La ejecución hace que se abra el archivo ``collatz.png``, que es el gráfico de la conjetura de Collatz generado a partir de los valores almacenados en el archivo ``collatz.txt``.
 
