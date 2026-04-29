@@ -1,0 +1,54 @@
+# Archivos generados (outputs)
+output/
+**/output/
+*.dat
+*.gp
+
+# Compilación C/C++
+*.o
+*.out
+*.exe
+*.a
+*.so
+*.dll
+*.dylib
+generar_imagen
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+venv/
+.env/
+.env
+.venv/
+
+.ipynb_checkpoints/
+
+# Logs
+*.log
+
+.DS_Store
+Thumbs.db
+
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Docker
+*.tar
+docker-save/
+docker-export/
+
+# Otros
+*.tmp
+*.temp
